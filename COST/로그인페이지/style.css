@@ -1,0 +1,47 @@
+.input {
+    display: block;
+    width: 200px;
+    height: 30px;
+    text-indent: 10px;
+    border: 2px solid lightgray;
+  }
+  #id-input {
+    border-radius: 10px 10px 0 0;
+  }
+  #password-input {
+    border-radius: 0 0 10px 10px;
+    border-top: 0;
+    margin-bottom: 5px;
+  }
+  .focus:focus {
+    background-color: rgb(227, 237, 255);
+  }
+  
+  #login-button {
+    display: block;
+    height: 35px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid rgb(132, 175, 255);
+    background-color: rgb(58, 133, 255);
+    transition: 0.1s;
+    color: white;
+    font-weight: 900;
+  }
+  #login-button:hover {
+    background-color: rgb(136, 179, 255);
+  }
+  #login-button:active {
+    transform: translateY(1px);
+    background-color: rgb(188, 213, 255);
+    border: 2px solid rgb(167, 197, 255);
+  }
+  
+  #keep-checkbox {
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  
+  body {
+    margin: 30px;
+  }

@@ -1,0 +1,16 @@
+h1 {
+  background: gray;
+  width: 60%;
+}
+
+p {
+  background: rgba(255,84,104,0.3);
+  width: 80%;
+  height: 200px;
+}
+
+span {
+  background: yellow;
+  width: 100px;
+  height: 100px;
+}

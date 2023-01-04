@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./keyboard-and-glasses-near-notes-and-coffee-cup-on-desk.jpg');
+    background-size:cover;
+    background-position: center;
+    /* 배경 사진 출처 <a href="https://kr.freepik.com/free-photo/keyboard-and-glasses-near-notes-and-coffee-cup-on-desk_5326289.htm#query=%EC%82%AC%EB%AC%B4%EC%8B%A4%20%EC%B1%85%EC%83%81%20%EB%B0%B0%EA%B2%BD&position=19&from_view=search&track=ais">Freepik</a>}*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-image: url('./painting\ taxture.jpg');
+    background-size: 150vh;
+    background-position: center;
+    width: 300px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 3px groove rgb(235,225,225);
+    shadow: 0px, 0px, 50px, #000;
+}
+
+.calculator__buttons {
+    background-size: 150vh;
+    background-position: center;
+}
+
+.clear {
+    height: 55px;
+    width: 55px;
+    margin: 1px;
+    border-radius: 5px;
+    font-size: xx-large;
+}
+.operator {
+    height: 55px;
+    width: 55px;
+    margin: 1px;
+    background-color: #f3f0fc;
+    border-radius: 5px;
+    font-size: xx-large;
+}
+.numbers {
+    height: 55px;
+    width: 55px;
+    margin: 1px;
+    background-color: #f3f0fc;
+    border-radius: 5px;
+    font-size: xx-large;
+}
+
+.dot {
+    height: 55px;
+    width: 55px;
+    margin: 1px;
+    background-color: #f3f0fc;
+    border-radius: 5px;
+    font-size: xx-large;
+}
+
+.result {
+    height: 55px;
+    width: 55px;
+    margin: 1px;
+    background-color: #f3f0fc;
+    border-radius: 5px;
+    font-size: xx-large;
+}
+
+.calculator {
+    border: 2px #DEB887;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.calculator:hover {
+    box-shadow: 2px, 2px, 4px #DEB887;
+}
+
+.calculator-display {
+    height: 100px;
+    width: 270px;
+    background-color: rgb(115,135,106);
+    border-radius: 10px;
+    font-size: 40px;
+    justify-items:  right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 10px;
+    border: 3px groove rgb(235,225,225);
+}
+/* 계산기 작성 애로사항 */
+/* 1. 디스플레이 부분 질감 표현 */
+/* 2. 계산기 테두리 질감표현 및 그림자 설정/// 그림자 남음*/
+/* 3. 버튼 질감표현 */
+/* 4. 디스플레이 숫자 부분 위치수정 해결 */
+/* 5. 폰트변경 */
